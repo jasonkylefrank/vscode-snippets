@@ -1,0 +1,8 @@
+{
+
+	"// JASON NOTE 7/17/22:  I was going to create some custom React or Next.js snippets": "",
+	"//    here in this file but found that they don't work if you just use '.js' files" : "",
+	"//    for your React / Next.js components (since VS Code does not automatically recognize": "",
+	"//    those files as 'javascriptreact' files).  So for now I'm going to put the snippets": "",
+	"//    in the 'javascript.json' snippets file instead (since those work for '.js' react files).": ""
+}

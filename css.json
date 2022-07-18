@@ -1,0 +1,35 @@
+{
+
+	"Styled Component function to access theme": {
+		"prefix": "scft",
+		"body": [
+			"${({ theme }) => theme.$0};"
+		],
+		"description": "Styled Component function to access theme."
+	},
+
+	"Styled Component function to access a prop": {
+		"prefix": "scfp",
+		"body": [
+			"${({ $1 }) => $1$0};"
+		],
+		"description": "Styled Component function to access a prop."
+	},
+
+
+	"rgba() black reduced opacity": {
+		"prefix": "rgbab",
+		"body": [
+			"rgba(0,0,0,0.$1)"
+		],
+		"description": "rgba() black reduced opacity."
+	},
+
+	"rgba() (general) reduced opacity": {
+		"prefix": "rgba",
+		"body": [
+			"rgba($1, $2, $3, 0.$4)"
+		],
+		"description": "rgba() (general) reduced opacity."
+	}
+}

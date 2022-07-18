@@ -1,0 +1,85 @@
+{
+
+	"Next.js functional component": {
+		"prefix": "nfc",
+		"body": [
+			"export default function ${1:${TM_FILENAME_BASE/(^.)/${1:/upcase}/}}() {",
+			"\treturn (",
+			"\t\t<>",
+			"\t\t\tThis is the `$1` component!$0",
+			"\t\t</>",
+			"\t);",
+			"}"
+		],
+		"description": "Next.js functional component."
+	},
+
+	"Next.js func comp w/Styled Component import": {
+		"prefix": "nfcsc",
+		"body": [
+			"import styled from \"styled-components\";",
+			"",
+			"",
+			"export default function ${1:${TM_FILENAME_BASE/(^.)/${1:/upcase}/}}() {",
+			"\treturn (",
+			"\t\t<>",
+			"\t\t\tThis is the `$1` component!$0",
+			"\t\t</>",
+			"\t);",
+			"}"
+		],
+		"description": "Next.js func comp w/Styled Component import."
+	},
+
+	"Next.js func comp w/Styled Comp & Layout": {
+		"prefix": "nfcscl",
+		"body": [
+			"import styled from \"styled-components\";",
+			"",
+			"",
+			"export default function ${1:${TM_FILENAME_BASE/(^.)/${1:/upcase}/}}() {",
+			"\treturn (",
+			"\t\t<>",
+			"\t\t\tThis is the `$1` component!$0",
+			"\t\t</>",
+			"\t);",
+			"}",
+			"",
+			"$1.getLayout = function getLayout(page) {",
+			"\treturn (",
+			"\t\t<Layout title=\"$1\">",
+			"\t\t\t{page}",
+			"\t\t</Layout>",
+			"\t);",
+			"};"
+		],
+		"description": "Next.js func comp w/Styled Comp & Layout."
+	},
+
+
+
+
+
+
+	"Create Styled Component (HTML element)": {
+		"prefix": "sc",
+		"body": [
+			"const $1 = styled.$2`",
+			"\t$0",
+			"`;"
+		],
+		"description": "Create Styled Component (HTML element)."
+	},
+
+	"Create Styled Component (wrapping a React component)": {
+		"prefix": "scr",
+		"body": [
+			"const $1 = styled($2)`",
+			"\t$0",
+			"`;"
+		],
+		"description": "Create Styled Component (wrapping a React component)."
+	}
+	
+	
+}
