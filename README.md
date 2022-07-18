@@ -10,7 +10,7 @@ In order to do this, we must:
 
 1. Create (or clone) a git repo to house the snippets in a part of the file system that we can control (e.g., in our 'projects' directory).
 
-2. Then create a (local) symbolic link connecting our snippets repo to the directory that VS Code looks at to for its snippets.
+2. Then create a (local) symbolic link connecting our snippets repo to the directory that VS Code looks at for its snippets.
 
 
 ## Creating the link on Mac
